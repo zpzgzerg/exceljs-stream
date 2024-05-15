@@ -6,7 +6,7 @@
 export default {
   methods: {
     async downloadExcel() {
-      const url = '/api/excel';
+      const url = '/api/stream';
       window.location.href = url; // Trigger download from server-side route
     }
   }

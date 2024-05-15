@@ -1,7 +1,8 @@
 import ExcelJS from 'exceljs';
 
 export default defineEventHandler(async (event) => {
-    const response = await fetch('http://localhost:8080/');
+
+    const response = await fetch('http://localhost:8080/excel');
     const reader = response.body.getReader();
 
     event.res.setHeader('Content-Type', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');

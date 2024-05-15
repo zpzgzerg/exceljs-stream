@@ -10,10 +10,14 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "axios": "^1.6.8",
     "exceljs": "^4.4.0",
+    "h3": "^1.11.1",
     "jsonstream": "^1.0.3",
     "nitropack": "^2.9.6",
+    "node-fetch": "^3.3.2",
     "nuxt": "^3.11.2",
+    "streamsaver": "^2.0.6",
     "vue": "^3.4.27",
     "vue-router": "^4.3.2"
   }
